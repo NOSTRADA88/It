@@ -33,5 +33,8 @@ public class Skooperfield extends Human {
         public void upset() {
             System.out.println("Однако, через пару минут " + name + " понял, что хочет очень сильно кушать");
         }
+        public void hungry() {
+            System.out.println(name + " настолько сильно хотел есть, что уже был готов заплатить выкуп и вкусно поесть");
+        }
     }
 }
